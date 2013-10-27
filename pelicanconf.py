@@ -19,6 +19,8 @@ MARKUP = ('md')
 # Blogroll
 LINKS =  (('Python for the Atmospheric and Oceanic Sciences', 'http://pyaos.johnny-lin.com/'),
           ('koldunov.net (in Russian)', 'http://koldunov.net'),
+          ('OceanPython.org','oceanpython.org ' ),
+          ('python4oceanographers', 'http://ocefpaf.github.io/')
          )
 
 # Social widget
