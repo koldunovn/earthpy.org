@@ -8,7 +8,7 @@ SITEURL = 'http://earthpy.org'
 TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = u'en'
-PLUGIN_PATH = '/home/magik/INTERNET/EARTHPY/pelican-plugins'
+PLUGIN_PATHS = ['/home/magik/INTERNET/EARTHPY/plug_test/pelican-plugins']
 PLUGINS = ['liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.include_code', 'liquid_tags.notebook']
 
