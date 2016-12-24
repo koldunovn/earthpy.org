@@ -8,14 +8,16 @@ SITEURL = 'http://earthpy.org'
 TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = u'en'
-PLUGIN_PATHS = ['/home/magik/INTERNET/EARTHPY/plug_test/pelican-plugins']
-PLUGINS = ['liquid_tags.img', 'liquid_tags.video',
-           'liquid_tags.include_code', 'liquid_tags.notebook']
+MARKUP = ('md', 'ipynb')
+
+PLUGIN_PATHS = ['./plugins']
+PLUGINS = ['ipynb.markup']
+#IPYNB_STOP_SUMMARY_TAGS = [('div', ('class', 'input')), ('div', ('class', 'output'))]
+IGNORE_FILES = ['.ipynb_checkpoints']
 
 #NOTEBOOK_DIR = '/home/magik/INTERNET/EARTHPY/earthpy.org/content2/notebooks'
-EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
+#EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
 
-MARKUP = ('md')
 # Blogroll
 LINKS =  (('Python for the Atmospheric and Oceanic Sciences', 'http://pyaos.johnny-lin.com/'),
           ('koldunov.net (in Russian)', 'http://koldunov.net'),
