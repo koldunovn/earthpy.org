@@ -1,0 +1,10 @@
+ Author: Nikolay Koldunov
+ Category: Visualization
+ Date: 2017-2-17 
+ Tags: visualization, cartopy
+ Title: Background image in cartopy
+ name: cartopy_backgroung
+ slug: cartopy_backgroung
+
+  {% notebook cartopy_backgroung.ipynb %}
+  
