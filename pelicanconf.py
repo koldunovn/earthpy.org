@@ -9,7 +9,7 @@ TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = u'en'
 MARKUP = ('md', 'ipynb')
-
+READERS = {'html': None}
 PLUGIN_PATHS = ['./plugins']
 PLUGINS = ['ipynb.markup']
 #IPYNB_STOP_SUMMARY_TAGS = [('div', ('class', 'input')), ('div', ('class', 'output'))]
